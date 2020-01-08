@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+body 
+{
+	background-image: url("Ecj7SqD - Imgur.gif"); 
+	color:red; 
+	<h1 style="background-color:rgb(238, 130, 238);">rgb(47, 80, 131)</h1>
+	font-family:Georgia, serif; 
+	font-size: 30px;
+	text-align:center; 
+    
+}
+
+div.one
+{
+	width:25%;
+	padding:1%;
+	background-color: maroon;
+	border:20px double Black;
+	margin:10% auto;
+	
+}
+div.two
+{
+	
+	width:50%;
+	padding:1%;
+	background-color: black;
+	border:2px Double White;
+	margin:10% auto;
+}

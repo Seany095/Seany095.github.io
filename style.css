@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* This is the stylesheet for my website. */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Basic Introduction to Web-making with html & css:
+http://www.w3schools.com
+
+Read the html & css intro sections.
+
+Learn about >
+Basic css syntax: http://www.w3schools.com/css/css_syntax.asp
+How to write css: http://www.w3schools.com/css/css_howto.asp 
+(Note: This is an EXTERNAL style sheet.)
+Colors in css: http://www.w3schools.com/colors/
+Font in css: http://www.w3schools.com/css/css_font.asp
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body 
+{
+	background-image: url("Ecj7SqD - Imgur.gif"); 
+	color:red; 
+	<h1 style="background-color:rgb(238, 130, 238);">rgb(47, 80, 131)</h1>
+	font-family:Georgia, serif; 
+	font-size: 30px;
+	text-align:center; 
+    
+}
+div.one
+{
+	width:50%;
+	padding:1%;
+	background-color: Black;
+	border:2px Double White;
+	margin:10% auto;
+	
+}
+

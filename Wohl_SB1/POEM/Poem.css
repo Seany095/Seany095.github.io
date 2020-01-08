@@ -1,0 +1,33 @@
+
+
+p, h2
+{
+font-family: "Press Start 2P";
+font-size: 80pt;
+text-align: center;
+letter-spacing: -50px;
+
+direction: ltr;
+color: Black;
+line-height: .8;
+animation: 
+typing 5s steps(40, end),
+blink-caret .25s step-end infinite;
+
+}
+body {
+	background-image: url("atari.gif");
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+div.one
+{
+	width:50%;
+	padding:1%;
+	text-align: center;
+	background-color: black;
+	border:2px Double White;
+	margin:10% auto;
+

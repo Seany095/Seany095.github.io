@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* 
+This is the stylesheet for my website. 
+
+Pay very close attention to the punctuation marks below. If the semicolon or the colon are not in the right place, the code will have the effect that you want.
+
+*/
+
+body {
+	background-image: url("step1.jpg");
+	color:Black; 
+	font-family:Georgia, serif; 
+	font-size: 30px;
+	text-align:center; 
+}
+h1{ 
+	color:Black; 
+	<h1 style="background-color:rgb(238, 130, 238);">rgb(47, 80, 131)</h1>
+	font-family:Georgia, serif; 
+	font-size: 50px;
+	text-align:center;
+	
+}
+
+div.one
+{
+	width:50%;
+	padding:1%;
+	background-color: Black;
+	border:2px Double White;
+	margin:10% auto;
+	
+}
+

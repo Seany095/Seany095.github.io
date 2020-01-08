@@ -1,0 +1,71 @@
+/*Style for blink
+
+Animating elements can add some fun to your sketch assemblage. 
+
+You need two pieces: 
+
+1) the call to animate, specifying the certain parameters in the selector (h1 below).
+2) the animation instructions, in the @keyframes rule (below).
+
+See css animations on W3 Schools for more information and a tutorial:
+https://www.w3schools.com/css/css3_animations.asp
+
+*/
+
+
+body {
+	/*background-color: blue;
+	*/
+	background-image: url("Gogh.gif"); 
+	text-align:center;
+}
+
+h1{ 
+	color:red; 
+	<h1 style="background-color:rgb(238, 130, 238);">rgb(47, 80, 131)</h1>
+	font-family:Georgia, serif; 
+	font-size: 50px;
+	text-align:center;
+	
+}
+
+
+h1 {		
+	animation: blink;
+	animation-timing-function:cubic-bezier(0,0,0,0);
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-direction: alternate;
+	animation-delay: 0s;
+} 
+
+
+@keyframes blink {
+	0% {opacity:1;}
+	10%{opacity:0;}
+	20%{opacity:1;}
+	30%{opacity:0;}
+	40%{opacity:1;}
+	50%{opacity:0;}
+	60%{opacity:1;}
+	70%{opacity:0;}
+	80%{opacity:1;}
+	90%{opacity:0;}
+	100%{opacity:1;}
+}
+body 
+{
+	 
+    
+}
+div.one
+{
+	width:50%;
+	padding:1%;
+	background-color: Black;
+	border:2px Double White;
+	margin:10% auto;
+	
+}
+
+

@@ -1,0 +1,78 @@
+/*This is the style sheet for the Box Model site.*/
+
+body
+{
+	background-image: url("Box.gif");
+	color:white;
+	margin: 0px;
+	text-align: center;
+	
+}
+
+div.one
+{
+	width:50%;
+	padding:1%;
+	background-color: black;
+	border:2px Double White;
+	margin:10% auto;
+	
+}
+div.two
+{
+	width:50%;
+	padding:4%;
+	background-color: Blue;
+	border:20px double Black;
+	
+	margin:10% auto;
+	
+}
+
+/* 
+
+These are the 4 standard attributes that determine the 'size' of an html element in the browser display: width, padding, border, margin.
+
+If a value is not specified then the element takes on its default value, based on its specific type and characteristics. 
+(That is, for example, p elements have different defaults than h1 elements, and from img elements.)
+
+To design a webpage, Step One : specify the relevant size attributes of key elements. Step Two : specify how those elements are to be placed inside
+the browser. Note: the code that specifies placement is called 'positioning' code (see example 4).
+
+*/
+
+/* Put some style in Div Two. Copy the format from div.one or make up your own styling*/
+
+div.three
+{
+	width:50%;
+	padding:4%;
+	background-color: #000099;
+	border:10px dashed Black;
+	margin:10% auto;
+	
+}
+
+div.four
+{
+	width:50%;
+	padding:4%;
+	background-color: #000033;
+	border:5px solid White;
+	margin:10% auto;
+	
+}
+
+div.five
+{
+	width:50%;
+	padding:4%;
+	background-color: Maroon;
+	border:2px dotted White;
+	margin:10% auto;
+	
+}
+
+
+
+/* Learn about the Box Model of spatial organization on W3Schools. Search under the CSS course for Box Model in the W3Schools website. */
